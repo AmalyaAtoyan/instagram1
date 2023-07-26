@@ -1,0 +1,97 @@
+.Messsage-img img{
+	position: absolute;
+	height: 60px;
+	object-fit: cover;
+}
+
+.Messsage-img{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 15px;
+}
+
+.Messenger-left-col-people-message{
+	padding: 13.5px 20px;
+	display: flex;
+	font-size: 14px;
+}
+
+.Message-info{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.Message-info :nth-child(2){
+	color: gray;
+	margin-top: 5px;
+}
+
+
+
+
+
+@media (max-width: 900px){
+    .activInfo{
+        font-size: 11px;
+        
+    }
+    .userName{
+        font-size: 12px;
+    }
+    .Messsage-img img{
+        height: 40px;
+    }
+    .Messsage-img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 790px){
+    .activInfo{
+        font-size: 10px;
+        
+    }
+    .userName{
+        font-size: 11px;
+    }
+    .Messsage-img img{
+        height: 36px;
+    }
+    .Messsage-img{
+        width: 36px;
+        height: 36px;
+    }
+}
+
+
+
+@media (max-width: 630px){
+    .Messsage-img img{
+        height: 28px;
+    }
+    .Messsage-img{
+        width: 28px;
+        height: 28px;
+    }
+    .Messenger-left-col-people-message{
+        padding:10px 5px;
+        display: flex;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 470px){
+    .Messsage-img img{
+        height: 24px;
+    }
+    .Messsage-img{
+        width: 24px;
+        height: 24px;
+    }
+}

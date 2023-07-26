@@ -1,0 +1,76 @@
+.MessengerChat{
+	min-width: 100%;
+	height: 70vh;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 20px 30px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.messagesFromMe{
+	 width: fit-content;
+	 padding: 5px 10px;
+	 border: 1px solid gray;
+	 border-radius: 15px;
+	 background-color: white;
+	 margin: 5px 0;
+	 align-self: flex-end;
+	 max-width: 600px;
+}
+
+.messagesToMe{
+	padding: 5px 10px;
+    border: 1px solid gray;
+	align-self: flex-end;
+    border-radius: 15px;
+    background-color: white;
+    width: fit-content;
+    margin: 5px 0;
+	align-self: flex-start;
+
+}
+
+.senderPartImg{
+	display: flex;
+	justify-content: end;
+}
+
+.senderImg{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	
+}
+
+.sendedMessage{
+	font-size: 25px;	
+	padding-top: 10px;
+	max-width: 600px;
+}
+
+@media (max-width: 700px){
+    .sendedMessage{
+		font-size: 18px;
+	}
+	.messagesFromMe,
+	.messagesToMe{
+		padding: 5px 5px;
+	}
+	.MessengerChat{
+		padding: 10px 15px;
+	}
+}
+
+@media (max-width: 400px){
+    .sendedMessage{
+		font-size: 15px;
+		padding: 5px 0;
+	}
+	.messagesFromMe,
+	.messagesToMe{
+		padding: 0px 5px;
+	}
+}
+

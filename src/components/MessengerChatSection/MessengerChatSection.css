@@ -1,0 +1,44 @@
+.Messenger-right-col{
+	width: 900px;
+	min-height: 70vh;
+	
+}
+
+.UserSction{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0 20px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+
+.avatarinTopChat{
+	border-radius: 50%;
+	margin-right: 20px;
+	padding: 10px 0;
+}
+
+.userPart{
+	display: flex;
+	justify-self: left;
+}
+
+.iPart{
+	display: flex;
+	justify-self: right;
+}
+
+
+
+
+@media (max-width: 630px){
+	.Messenger-right-col{
+		width:800px ;
+	}
+}
+
+

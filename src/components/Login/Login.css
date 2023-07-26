@@ -1,0 +1,18 @@
+.formContainer{
+    height: 700px;
+    background-color: white;
+}
+
+.flexDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 260px;
+    gap: 30px;
+    height: 600px;
+}
+
+.Login{
+    background-color: white;
+}
+

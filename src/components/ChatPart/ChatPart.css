@@ -1,0 +1,31 @@
+.directImgPart{
+	width: 1000px;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.directImg{
+	width: 150px;
+	height: 150px;
+}
+
+.directPart{
+    margin: auto ;
+}
+
+@media (max-width: 630px){
+
+	.directImg{
+		width: 100px;
+		height: 100px;
+	}
+
+	.directPart{
+		margin:  auto;
+	}
+}
+
+
+

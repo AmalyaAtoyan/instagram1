@@ -1,0 +1,15 @@
+.imgDiv{
+    height: 600px;
+    background-color: white;
+}
+
+.loginPartImg{
+    height: 600px;
+}
+
+
+@media only screen and (max-width: 900px) {
+	.imgDiv {
+	  display: none;
+	}
+}

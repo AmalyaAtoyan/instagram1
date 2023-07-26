@@ -1,0 +1,100 @@
+.Messenger{
+	position: absolute;
+	width: 100%;
+	height:85vh;
+	top: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.Messenger-auto{
+	width: 70%;
+	min-height: 95%;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	display: flex;
+}
+
+.Messenger-left-col{
+	width: 33%;
+	border-right: 1px solid #dfdfdf;
+}
+
+.Messenger-left-col-direct{
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.Primary-General{
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	display: flex;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.Primary-General p{
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+.Primary-General p:focus{
+	border-bottom: 1px solid black;
+}
+
+
+@media (max-width: 790px){
+	.Messenger-left-col{
+		width: 400px;
+	}
+}
+
+@media (max-width: 630px){
+	.Messenger-left-col{
+		width: 40%;
+	}
+	
+	.Messenger-auto{
+		width: 90%;
+	}
+}
+
+
+@media (max-width: 630px){
+
+	.Messenger-left-col{
+		width: 500px;
+	}
+	
+	.Messenger-auto{
+		width: 90%;
+	}
+}
+
+
+@media (max-width: 470px){
+
+	.Messenger-left-col{
+		width: 38%;
+	}
+	.Messenger-auto{
+		width: 95%;
+	}
+	.Primary-General{
+		font-size: 14px;
+	}
+}
+
+@media (max-width:410px){
+	.Primary-General{
+		font-size: 12px;
+	}
+	.Primary-General p{
+		padding: 0 8px;
+	}
+}
+

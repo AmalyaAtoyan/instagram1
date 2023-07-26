@@ -1,0 +1,33 @@
+.infoPart4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    border: 1px solid gainsboro;
+    margin-top: 15px;
+    height: 60px;
+}
+
+
+.logInfo{
+    font-size: 14px;
+}
+
+.signPart{
+    font-size: 14px;
+    color: #1895F6;
+    font-weight: bolder;
+    width: 120px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.infoPart5,
+.infoPart6{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+
+}

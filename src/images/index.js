@@ -1,0 +1,32 @@
+const IMAGES = {
+    home: require('./home.PNG'),
+    explore: require('./explore.PNG'),
+    cover1: require('./cover1.jpg'),
+    cover2: require('./cover2.jpg'),
+    cover3: require('./cover3.jpg'),
+    cover4: require('./cover4.jpg'),
+    cover5: require('./cover5.jpg'),
+    cover6: require('./cover6.png'),
+    cover7: require('./cover 7.png'),
+    cover8: require('./cover 8.png'),
+    cover9: require('./cover 9.png'),
+    cover10: require('./cover 10.png'),
+    cover11: require('./cover 11.png'),
+    cover12: require('./cover 12.png'),
+    cover13: require('./cover 13.png'),
+    comment: require('./comment.PNG'),
+    add: require('./add.PNG'),
+    like: require('./like.PNG'),
+    logo: require('./logo.PNG'),
+    messenger: require('./messenger.PNG'),
+    option: require('./option.PNG'),
+    profile_pic: require('./profile-pic.png'),
+    save: require('./save.PNG'),
+    send: require('./send.PNG'),
+    smile: require('./smile.PNG'),
+    createPost: require('./6537820.png'),
+    loginPart:require('./loginPart.png'),
+    loginPart2:require('./loginPart2.png')
+}
+
+export default IMAGES
